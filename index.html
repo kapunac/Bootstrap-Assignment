@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ivan Kapunac">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Assignment</title>
+    <link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .landing-page {
+            background: url(./images/hero.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        li a {
+            color: rgb(138, 138, 138);
+        }
+
+        .landing-page {
+            height: 50vh;
+        }
+
+        h3 {
+            background-color: rgb(4, 202, 4);
+            color: white;
+        }
+        #logo-text{
+            font-size:30px;
+        }
+        footer{
+            background: #333;
+        }
+        .bottom-footer{
+            background: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="my-2 p-2">
+        <div class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="col-lg-4 col-md-5 col-10">
+                    <h1 class="lead" id="logo-text">My Website</h1>
+                </div>
+                <div class="col-lg-8 col-md-7 col-2 h5 d-flex justify-content-end">
+                    <ul class="list-inline text-right d-lg-block d-md-none d-none d-sm-none ">
+                        <li class="list-inline-item"><a href="#">Home</a></li>
+                        <li class="list-inline-item"><a href="#">Portfolio</a></li>
+                        <li class="list-inline-item"><a href="#">Staff</a></li>
+                        <li class="list-inline-item"><a href="#">Features</a></li>
+                        <li class="list-inline-item"><a href="#">Blog</a></li>
+                        <li class="list-inline-item"><a href="#">Contact</a></li>
+                        <li class="list-inline-item"><a href="#">Download</a></li>
+                    </ul>
+
+                    <img class="h-25 d-lg-none my-auto mx-2" src="./images/menu.png"><p class="my-auto d-lg-none">Menu</p>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="landing-page">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="m-5 p-3 d-inline-block">We strive to make all of our creations exquisite.</h3>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="summary-about m-5">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-3 col-12">
+                    <img src="./images/icon-1.png" class="img-fluid">
+                    <h4>Purpose</h4>
+                    <p class="text-muted">Vestibulum sapien nisi, suscipit vitae euismod vitae, imperdiet eget est. Etiam tincidunt tempus
+                    </p>
+                </div>
+                <div class="col-md-3 col-12">
+                    <img src="./images/icon-2.png" class="img-fluid">
+                    <h4>Quality</h4>
+                    <p class="text-muted">Nam commodo risus pharetra magna egestas, neciaculis augue lobortis. Proin eleifend enim quis.
+                    </p>
+                </div>
+                <div class="col-md-3 col-12">
+                    <img src="./images/icon-3.png" class="img-fluid">
+                    <h4>Function</h4>
+                    <p class="text-muted">Aenean et tellus id nisi vehicula fringilla. In condimentum dui eu turpis mollis turpis suscipit
+                    </p>
+                </div>
+                <div class="col-md-3 col-12">
+                    <img src="./images/icon-4.png" class="img-fluid">
+                    <h4>Elegant</h4>
+                    <p class="text-muted">Mauris accumsan magna in placerat lacinia. Proin sit amet neque vitae nunc pulvinar varius</p>
+                </div>
+            </div>
+    </section>
+    <section class="recent-work m-5">
+        <h5 class="text-uppercase">Recent Work</h5>
+        <hr>
+        <div class="container-fluid">
+            <div class="row text-capitalize">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./images/bike-400x340.jpg" class="img-fluid">
+                    <h5 class="my-2"><b>Green bike</b></h5>
+                    <p class="text-muted">Beautiful, Travel</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./images/surf-400x340.jpg" class="img-fluid">
+                    <h5 class="my-2"><b>Salt of the earth</b></h5>
+                    <p class="text-muted">Beautiful, Travel</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./images/hills-400x340.jpg" class="img-fluid">
+                    <h5 class="my-2"><b>Mountain High</b></h5>
+                    <p class="text-muted">Travel</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./images/path-400x340.jpg" class="img-fluid">
+                    <h5 class="my-2"><b>When a tree falls</b></h5>
+                    <p class="text-muted">Beautiful</p>
+                </div>
+            </div>
+            </div>
+    </section>
+    <section class="from-the-blog m-5">
+        <h5 class="text-uppercase">From the blog</h5>
+        <hr>
+        <div class="container-fluid">
+            <div class="row text-capitalize">
+                <div class="col-lg-4 col-md-12">
+                    <img src="./images/cow-640x340.jpg" class="img-fluid">
+                    <h5 class="my-2"><b>How now</b></h5>
+                    <p>Posted on October 28, 2020</p>
+                    <p class="text-muted">Proin et ligula laoreet, vestibulum orci nec, eleifend purus. Quisque ullamcorper sem at ipsum elementum laoreet. Integer egestass...</p>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <img src="./images/sunrise-640x340.jpg" class="img-fluid">
+                    <h5 class="my-2"><b>Adrift by Simon Christen</b></h5>
+                    <p>Posted on September 29, 2020</p>
+                    <p class="text-muted">Morbi vulputate egestas sem, eu cursus ligula ullamcorper non. Curabitur tristique velit eu mauris venenatis egestas. Phasellus bibendum...</p>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <img src="./images/grass-640x340.jpg" class="img-fluid">
+                    <h5 class="my-2"><b>A walk in the park</b></h5>
+                    <p>Posted on August 10, 2020</p>
+                    <p class="text-muted">Proin elementum pharetra mauris sed semper. Cras lorem arcu, vulputate ut malesuada ut, tincidunt tempor lectus. Etiam adipiscing...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+    <div class="container-fluid p-5">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 p-5">
+                <h5 class="text-light my-3"><strong>My Website</strong></h5>
+                <p class="text-muted">Quisque id dolor leo. Vivamus tincidunt in diam ac condimentum. Quisque rutrum dolor dolor, non tincidunt tellus sollicitudin vitae. Mauris a dolor ut nibh valutpat aliquam. Sed dictum magna eu massa accumsan, sit amet viverra ligula gravida. Nam vehicula ut leo aliquet sodales</p>
+            </div>
+            <div class="col-lg-4 col-sm-12 p-5 text-light">
+                <h5 class="my-3"><strong>Recent Posts</strong></h5>
+                <table class="table table-hover text-light">
+                    <tr>
+                        <td><a href="#" class="text-decoration-none text-light">How Now</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="text-decoration-none text-light">Adrift by Simon Christen</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="text-decoration-none text-light">A walk in the park</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="text-decoration-none text-light">Time to think</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="text-decoration-none text-light">Field of dreams</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-lg-4 col-sm-12 p-5">
+                <h5 class="text-light my-3"><strong>Recent Work</strong></h5>
+                <table class="table table-hover text-light">
+                    <tr>
+                        <td><a href="#" class="text-decoration-none text-light">Beautiful</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="text-decoration-none text-light">Travel</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="text-decoration-none text-light">Surreal</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="text-decoration-none text-light">Thoughts</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="text-decoration-none text-light">Unique</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    </footer>
+<div class="container-fluid bottom-footer">
+    <div class="row justify-content-center text-center">
+        <p class="text-muted m-4">&copy; 2020 ITAcademy</p>
+    </div>
+</div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    </script>
+
+</html>
